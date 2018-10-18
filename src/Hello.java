@@ -1,7 +1,9 @@
 
 public class Hello {
+	
+	public  String name;
 
-	public static String Hello() {
-		return "Hello World ";
+	public static String Hello(String name) {
+		return "Hello  " + name;
 	}
 }
