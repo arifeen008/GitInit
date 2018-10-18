@@ -1,9 +1,17 @@
 
 public class Hello {
 	
-	public  String name;
+	public String name;
 
-	public static String Hello(String name) {
-		return "Hello  " + name;
+	public String getName() {
+		return name;
 	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public  String toString() {
+		return "Hello  " + getName();
+	}
+
+
 }
